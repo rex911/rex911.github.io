@@ -9,12 +9,12 @@ permalink:        pretty
 title:            Rex's Blog
 tagline:          'A blog'
 description:      Not sure what I will end up writing; but let's see
-url:              http://www.rexliu.me
+url:              rexliu.me
 baseurl:          /
 
 author:
   name:           'Rex Liu'
-  url:            http://www.rexliu.me
+  url:            www.rexliu.me
 
 paginate:         5
 
