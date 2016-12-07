@@ -3,7 +3,6 @@ layout: post
 comments: true
 title: Set Up JupyterHub on EC2
 ---
-
 Having been using Jupyter Notebook to run my Python code almost exlusively for quite some time, I started to realize that it'd great if, instead of hosting Jupyter on my poor laptop, there is a server that does the hosting. I could for example, kick off a machine learning code before I leave work, and check the results when I get home. Oops I absolutely meant when I get work the next morning; who works extra hours anyway?
 
 Some quick googling told me not only can you host a single-user Jupyter Notebook, there is also an multi-user option called [JupyterHub](https://github.com/jupyterhub/jupyterhub). I immediately decided to build one JupyterHub server on Amazon EC2 for our data science team, which potentially would be great for:
@@ -99,11 +98,11 @@ exit
 	sudo jupyter kernelspec list 
 	```
 	This should now return:
-	python3    /usr/local/lib/python3.4/dist-packages/ipykernel/resources
-  python2    /usr/local/share/jupyter/kernels/python2
+	
 	```
 	Available kernels:
   python3    /usr/local/lib/python3.4/dist-packages/ipykernel/resources
+  python2    /usr/local/share/jupyter/kernels/python2
 	```
 	
 8. Launch JupyterHub
@@ -111,4 +110,5 @@ exit
 	```bash
 	sudo jupyterhub
 	```
+	Enjoy!
 	

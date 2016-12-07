@@ -30,3 +30,7 @@ gems:
   - redcarpet
   - jekyll-gist
   - pygments.rb
+
+# Build settings
+#markdown: kramdown
+markdown: redcarpet
