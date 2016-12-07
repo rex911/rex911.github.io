@@ -1,6 +1,3 @@
-markdown: kramdown
-highlighter: rouge
-
 # Permalinks
 permalink:        pretty
 
@@ -29,3 +26,6 @@ gems:
   - jekyll-gist
   - pygments.rb
   - kramdown
+
+markdown: kramdown
+highlighter: rouge
