@@ -19,7 +19,7 @@ Some quick googling told me not only can you host a single-user Jupyter Notebook
 1. ssh to your newly launched 
 2. Install Anaconda for Python 2, which will be the main data science environment
 
-	```bash
+	```scala
 wget https://repo.continuum.io/archive/Anaconda2-4.2.0-Linux-x86_64.sh
 sudo bash Anaconda2-4.2.0-Linux-x86_64.sh 
 ```
