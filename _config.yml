@@ -31,6 +31,3 @@ gems:
   - jekyll-gist
   - pygments.rb
   - kramdown
-
-# Build settings
-markdown: kramdown
