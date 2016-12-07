@@ -7,14 +7,14 @@ permalink:        pretty
 
 # Setup
 title:            Rex's Blog
-tagline:          'A blog'
+tagline:          'Welcome'
 description:      Not sure what I will end up writing; but let's see
-url:              http://www.rexliu.me
+url:              rexliu.me
 baseurl:          /
 
 author:
   name:           'Rex Liu'
-  url:            http://www.rexliu.me
+  url:            rexliu.me
 
 paginate:         5
 
