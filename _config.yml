@@ -28,4 +28,6 @@ gems:
   - kramdown
 
 markdown: kramdown
+kramdown:
+  input: GFM
 highlighter: rouge
