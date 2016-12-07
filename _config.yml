@@ -27,7 +27,9 @@ gems:
   - pygments.rb
   - kramdown
 
+highlighter: rouge
 markdown: kramdown
 kramdown:
   input: GFM
-highlighter: rouge
+  auto_ids: true
+  syntax_highlighter: rouge
