@@ -32,5 +32,5 @@ gems:
   - pygments.rb
 
 # Build settings
-#markdown: kramdown
-markdown: redcarpet
+markdown: kramdown
+#markdown: redcarpet
