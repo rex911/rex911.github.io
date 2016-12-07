@@ -27,7 +27,6 @@ github:
 
 gems:
   - jekyll-paginate
-  - redcarpet
   - jekyll-gist
   - pygments.rb
   - kramdown
