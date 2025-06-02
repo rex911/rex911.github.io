@@ -1,7 +1,12 @@
 ---
-layout: post
-comments: true
-title: Set Up JupyterHub on EC2
+title: "Set up JupyterHub on EC2"
+date: 2016-11-24T15:34:30-04:00
+categories:
+  - blog
+tags:
+  - Python
+  - Jupyter
+  - AWS
 ---
 
 Having been using Jupyter Notebook to run my Python code almost exlusively for quite some time, I started to realize that it'd great if, instead of hosting Jupyter on my poor laptop, there is a server that does the hosting. I could for example, kick off a machine learning code before I leave work, and check the results when I get home. Oops I absolutely meant when I get work the next morning; who works extra hours anyway?
