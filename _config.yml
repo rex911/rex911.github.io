@@ -59,7 +59,7 @@ plugins:
 
 author:
   name   : "Rex Liu"
-  avatar : "/assets/images/bio-photo.jpg"
+  avatar : "/assets/images/bio-photo.jpeg"
   bio    : "I am a data / ML engineer based in Toronto"
   links:
     - label: "Website"
