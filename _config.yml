@@ -78,7 +78,7 @@ footer:
       icon: "fas fa-fw fa-link"
       url: "https://www.rexliu.me/"
     - label: "LinkedIn"
-      icon: "fa fa-linkedin"
+      icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/rexliu01/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
