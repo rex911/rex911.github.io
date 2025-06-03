@@ -43,19 +43,19 @@ To illustrate this, let's consider the following matrix:
 |      |      |      |      |
 |------|------|------|------|
 | <span style="color:green">1</span>  | <span style="color:green">3</span>  | <span style="color:green">5</span>  | <span style="color:green">7</span>  |
-| <span style="color:green">10</span> | <span style="color:green">11</span> | <span style="color:green">16</span> | <span style="color:green">20</span> |
-| <span style="color:green">23</span> | <span style="color:green">30</span> | <span style="color:green">34</span> | <span style="color:green">60</span> |
-| <span style="color:green">61</span> | <span style="color:green">66</span> | <span style="color:green">70</span> | <span style="color:green">80</span> |
+| <span style="color:green">3</span> | <span style="color:green">5</span> | <span style="color:green">16</span> | <span style="color:green">20</span> |
+| <span style="color:green">4</span> | <span style="color:green">10</span> | <span style="color:green">34</span> | <span style="color:green">36</span> |
+| <span style="color:green">9</span> | <span style="color:green">17</span> | <span style="color:green">70</span> | <span style="color:green">80</span> |
 
-Let's say the target is 16. The diagonal of the matrix is `[1, 11, 34, 80]`. We can perform a binary search on this diagonal to find the closest elements to the target. In this case, we find that 11 and 34 are the closest element. 
+Let's say the target is 16. The diagonal of the matrix is `[1, 5, 34, 80]`. We can perform a binary search on this diagonal to find the closest elements to the target. In this case, we find that 5 and 34 are the closest element. 
 
 
 |      |      |      |      |
 |------|------|------|------|
 | <span style="color:red">1</span>  | <span style="color:red">3</span>  | <span style="color:green">5</span>  | <span style="color:green">7</span>  |
-| <span style="color:red">10</span> | <span style="color:red">11</span> | <span style="color:green">16</span> | <span style="color:green">20</span> |
-| <span style="color:green">23</span> | <span style="color:green">30</span> | <span style="color:red">34</span> | <span style="color:red">60</span> |
-| <span style="color:green">61</span> | <span style="color:green">66</span> | <span style="color:red">70</span> | <span style="color:red">80</span> |
+| <span style="color:red">3</span> | <span style="color:red">5</span> | <span style="color:green">16</span> | <span style="color:green">20</span> |
+| <span style="color:green">4</span> | <span style="color:green">10</span> | <span style="color:red">34</span> | <span style="color:red">36</span> |
+| <span style="color:green">9</span> | <span style="color:green">17</span> | <span style="color:red">70</span> | <span style="color:red">80</span> |
 
 This seperates the matrix into 4 quadrants. Due to the constraints of the problem, we know that the top left quadrant can only contain elements less than the target, and the bottom right quadrant can only contain elements greater than the target. Therefore, we can discard these 2 quadrants, and move on to the top right and bottom left quadrants. We can treat these two quadrants as two separate matrices and apply the same binary search approach to each of them, until we reach a single row or a single column.
 
