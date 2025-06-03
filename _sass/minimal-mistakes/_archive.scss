@@ -8,13 +8,13 @@
 
   @include breakpoint($large) {
     float: inline-end;
-    width: 80%; // Set width to 80% for archives
-    padding-inline-end: 10%; // Adjust right padding for centering
+    width: 78%; // Set width to 78% for archives
+    padding-inline-end: 11%; // Adjust right padding for centering
   }
 
   @include breakpoint($x-large) {
-    width: 80%; // Set width to 80% for archives
-    padding-inline-end: 10%; // Adjust right padding for centering
+    width: 78%; // Set width to 78% for archives
+    padding-inline-end: 11%; // Adjust right padding for centering
   }
 }
 
