@@ -36,13 +36,13 @@ body {
 .page {
   @include breakpoint($large) {
     float: inline-end;
-    width: 100%; // Remove right padding for posts
-    padding-inline-end: 0;
+    width: 80%; // Set width to 80% for posts
+    padding-inline-end: 10%; // Adjust right padding for centering
   }
 
   @include breakpoint($x-large) {
-    width: 100%; // Remove right padding for posts
-    padding-inline-end: 0;
+    width: 80%; // Set width to 80% for posts
+    padding-inline-end: 10%; // Adjust right padding for centering
   }
 
   .page__inner-wrap {
