@@ -6,6 +6,7 @@ categories:
 tags:
   - Algorithm
   - LeetCode
+math: true
 ---
 
 # Introduction
