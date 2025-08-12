@@ -247,4 +247,4 @@ class SolutionTwo:
 While this alternative solution might be harder to implement and has more edge cases toconsider, it is in my opinion a more strcutured approach that actually utilizes basic computer science concepts such as binary search and recursion. It also has the same time complexity as the well-known O(M+N) solution, making it a valid alternative. I hope you find this approach interesting and useful for your coding practice!
 
 # See Also
-A simialr approach posted by a LeetCode user [here](https://leetcode.com/problems/search-a-2d-matrix-ii/solutions/3205428/a-different-o-m-n-solution-2d-binary-search-no-trickery-involved-methodical/). This approach splits the matrix into 4 quadrants using the middle row, instead of the diagonal.
+A similar approach posted by a LeetCode user [here](https://leetcode.com/problems/search-a-2d-matrix-ii/solutions/3205428/a-different-o-m-n-solution-2d-binary-search-no-trickery-involved-methodical/). This approach splits the matrix into 4 quadrants using the middle row, instead of the diagonal.
